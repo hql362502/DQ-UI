@@ -25,7 +25,7 @@ const getClientRender = (args: { hot?: boolean; routes?: any[] } = {}) => plugin
         isServer: process.env.__IS_SERVER,
         dynamicImport: true,
         rootElement: 'root',
-        defaultTitle: `Happy UI`,
+        defaultTitle: `DQ UI`,
       },
     });
     return renderClient(opts);

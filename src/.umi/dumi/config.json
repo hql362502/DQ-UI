@@ -20,7 +20,7 @@
       "*": [
         {
           "path": "/",
-          "title": "Happy UI",
+          "title": "DQ UI",
           "meta": {}
         }
       ]
@@ -41,7 +41,7 @@
       }
     ]
   },
-  "title": "Happy UI",
+  "title": "DQ UI",
   "mode": "site",
   "repository": {
     "url": "",
