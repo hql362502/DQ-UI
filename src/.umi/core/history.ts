@@ -2,7 +2,7 @@
 import { createBrowserHistory, History } from 'D:/前端项目学习/react-ui-library-tutorial/dq-ui/node_modules/umi/node_modules/@umijs/runtime';
 
 let options = {
-  "basename": "/"
+  "basename": "/DQ-UI"
 };
 if ((<any>window).routerBase) {
   options.basename = (<any>window).routerBase;

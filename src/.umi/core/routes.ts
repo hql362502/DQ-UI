@@ -68,7 +68,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "src/alert/index.md",
-          "updatedTime": 1650967239586,
+          "updatedTime": 1650967524000,
           "componentName": "alert",
           "title": "Alert 警告提示",
           "nav": {
@@ -97,6 +97,11 @@ export function getRoutes() {
               "depth": 3,
               "value": "基本用法",
               "heading": "基本用法"
+            },
+            {
+              "depth": 2,
+              "value": "API",
+              "heading": "api"
             }
           ],
           "hasPreviewer": true
@@ -109,7 +114,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "docs/index.md",
-          "updatedTime": 1650967032955,
+          "updatedTime": 1650967524000,
           "title": "Happy UI",
           "hero": {
             "title": "Happy UI",
