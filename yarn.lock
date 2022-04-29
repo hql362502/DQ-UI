@@ -6181,6 +6181,15 @@ hosted-git-info@^4.0.1:
   dependencies:
     lru-cache "^6.0.0"
 
+hql-dq-ui@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/hql-dq-ui/-/hql-dq-ui-1.0.1.tgz#603ede13ec0c3cbcbbf4e4f7f699906c6552ac29"
+  integrity sha512-l2A6lJXtA0FegQ0Eyp15IUvSJ7lf1yxvyNU4kNTX0Ze7LRW4YXeZyi1c/zZoXaavlhsF5NjHMwD6pCcbtRdSFA==
+  dependencies:
+    "@babel/runtime" "^7.17.9"
+    classnames "^2.3.1"
+    prop-types "^15.8.1"
+
 html-comment-regex@^1.1.0:
   version "1.1.2"
   resolved "https://registry.npmmirror.com/html-comment-regex/-/html-comment-regex-1.1.2.tgz"

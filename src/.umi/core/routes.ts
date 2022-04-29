@@ -68,7 +68,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "src/components/Alert/index.md",
-          "updatedTime": 1651220610460,
+          "updatedTime": 1651224859000,
           "componentName": "Alert",
           "title": "Alert 警告提示",
           "nav": {
@@ -124,7 +124,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "src/components/Button/index.md",
-          "updatedTime": 1651223454774,
+          "updatedTime": 1651224859000,
           "componentName": "Button",
           "title": "Button 按钮组件",
           "nav": {
@@ -175,12 +175,40 @@ export function getRoutes() {
         "title": "Button 按钮组件 - DQ UI"
       },
       {
+        "path": "/getting-started",
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__getting-started.md' */'D:/myself/DQ-UI/docs/getting-started.md')}),
+        "exact": true,
+        "meta": {
+          "filePath": "docs/getting-started.md",
+          "updatedTime": 1651227678433,
+          "title": "快速开始",
+          "nav": {
+            "title": "快速上手",
+            "order": 1,
+            "path": "/getting-started"
+          },
+          "slugs": [
+            {
+              "depth": 3,
+              "value": "开始使用DQ-UI组件库",
+              "heading": "开始使用dq-ui组件库"
+            },
+            {
+              "depth": 4,
+              "value": "一、安装",
+              "heading": "一安装"
+            }
+          ]
+        },
+        "title": "快速开始 - DQ UI"
+      },
+      {
         "path": "/",
         "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__index.md' */'D:/myself/DQ-UI/docs/index.md')}),
         "exact": true,
         "meta": {
           "filePath": "docs/index.md",
-          "updatedTime": 1650987528000,
+          "updatedTime": 1651224859000,
           "title": "DQ UI",
           "hero": {
             "title": "DQ UI",
