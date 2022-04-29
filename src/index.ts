@@ -1,1 +1,5 @@
-export { default as Alert } from './alert';
+export {
+    Alert,
+    // Button,
+    // Icon
+  } from "./components"

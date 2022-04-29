@@ -4,8 +4,8 @@ import '@@/core/devScripts';
 import { plugin } from './core/plugin';
 import './core/pluginRegister';
 import { createHistory } from './core/history';
-import { ApplyPluginsType } from 'D:/前端项目学习/react-ui-library-tutorial/dq-ui/node_modules/umi/node_modules/@umijs/runtime';
-import { renderClient } from 'D:/前端项目学习/react-ui-library-tutorial/dq-ui/node_modules/@umijs/renderer-react';
+import { ApplyPluginsType } from 'D:/myself/DQ-UI/node_modules/umi/node_modules/@umijs/runtime';
+import { renderClient } from 'D:/myself/DQ-UI/node_modules/@umijs/renderer-react';
 import { getRoutes } from './core/routes';
 
 

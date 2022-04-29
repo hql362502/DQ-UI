@@ -1,7 +1,21 @@
 {
   "menus": {
     "en-US": {
-      "/alert": [
+      "/components": [
+        {
+          "title": "通用",
+          "meta": {
+            "order": 1,
+            "__fallback": true
+          },
+          "children": [
+            {
+              "path": "/components/button",
+              "title": "Button 按钮组件",
+              "meta": {}
+            }
+          ]
+        },
         {
           "title": "反馈",
           "meta": {
@@ -10,7 +24,7 @@
           },
           "children": [
             {
-              "path": "/alert",
+              "path": "/components/alert",
               "title": "Alert 警告提示",
               "meta": {}
             }
@@ -37,14 +51,14 @@
       {
         "title": "组件",
         "order": 2,
-        "path": "/alert"
+        "path": "/components"
       }
     ]
   },
   "title": "DQ UI",
   "mode": "site",
   "repository": {
-    "url": "",
+    "url": "https://github.com/hql362502/DQ-UI",
     "branch": "master"
   },
   "theme": {},
