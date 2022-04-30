@@ -1,6 +1,6 @@
 import React from 'react';
 import Alert from '../alert';
-import '../style'
+// import '../style'
 export default ()=>{
     const style = { marginBottom : '20px'}
     return (

@@ -181,7 +181,6 @@ export function getRoutes() {
         "meta": {
           "filePath": "docs/getting-started.md",
           "updatedTime": 1651227747000,
-          "title": "快速开始",
           "nav": {
             "title": "快速上手",
             "order": 1,
@@ -189,18 +188,51 @@ export function getRoutes() {
           },
           "slugs": [
             {
-              "depth": 3,
-              "value": "开始使用DQ-UI组件库",
-              "heading": "开始使用dq-ui组件库"
+              "depth": 1,
+              "value": "快速上手",
+              "heading": "快速上手"
             },
             {
-              "depth": 4,
-              "value": "一、安装",
-              "heading": "一安装"
+              "depth": 2,
+              "value": "安装",
+              "heading": "安装"
+            },
+            {
+              "depth": 2,
+              "value": "示例",
+              "heading": "示例"
+            },
+            {
+              "depth": 3,
+              "value": "自动按需加载",
+              "heading": "自动按需加载"
             }
-          ]
+          ],
+          "title": "快速上手"
         },
-        "title": "快速开始 - DQ UI"
+        "title": "快速上手 - DQ UI"
+      },
+      {
+        "path": "/help",
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__help.md' */'D:/前端项目学习/react-ui-library-tutorial/dq-ui/docs/help.md')}),
+        "exact": true,
+        "meta": {
+          "filePath": "docs/help.md",
+          "updatedTime": 1651304062893,
+          "nav": {
+            "title": "帮助",
+            "path": "/help"
+          },
+          "slugs": [
+            {
+              "depth": 1,
+              "value": "帮助",
+              "heading": "帮助"
+            }
+          ],
+          "title": "帮助"
+        },
+        "title": "帮助 - DQ UI"
       },
       {
         "path": "/",

@@ -1,7 +1,7 @@
 import React from 'react';
 // import Alert from '../alert';
 // import '../style';
-import {Alert} from 'hql-dq-ui';
+import { Alert } from 'hql-dq-ui/lib/components/Alert';
 import 'hql-dq-ui/lib/components/Alert/style'
 export default ()=>{
     const style = { marginBottom : '20px'}
