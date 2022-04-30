@@ -1,6 +1,6 @@
 // @ts-nocheck
 import React from 'react';
-import { ApplyPluginsType, dynamic } from 'D:/myself/DQ-UI/node_modules/umi/node_modules/@umijs/runtime';
+import { ApplyPluginsType, dynamic } from 'D:/前端项目学习/react-ui-library-tutorial/dq-ui/node_modules/umi/node_modules/@umijs/runtime';
 import * as umiExports from './umiExports';
 import { plugin } from './plugin';
 
@@ -13,7 +13,7 @@ export function getRoutes() {
     "component": ((props) => dynamic({
           loader: async () => {
             const React = await import('react');
-            const { default: getDemoRenderArgs } = await import(/* webpackChunkName: 'dumi_demos' */ 'D:/myself/DQ-UI/node_modules/@umijs/preset-dumi/lib/plugins/features/demo/getDemoRenderArgs');
+            const { default: getDemoRenderArgs } = await import(/* webpackChunkName: 'dumi_demos' */ 'D:/前端项目学习/react-ui-library-tutorial/dq-ui/node_modules/@umijs/preset-dumi/lib/plugins/features/demo/getDemoRenderArgs');
             const { default: Previewer } = await import(/* webpackChunkName: 'dumi_demos' */ 'dumi-theme-default/es/builtins/Previewer.js');
             const { usePrefersColor, context } = await import(/* webpackChunkName: 'dumi_demos' */ 'dumi/theme');
 
@@ -60,11 +60,11 @@ export function getRoutes() {
     "__dumiRoot": true,
     "layout": false,
     "path": "/",
-    "wrappers": [dynamic({ loader: () => import(/* webpackChunkName: 'wrappers' */'../dumi/layout')}), dynamic({ loader: () => import(/* webpackChunkName: 'wrappers' */'D:/myself/DQ-UI/node_modules/dumi-theme-default/es/layout.js')})],
+    "wrappers": [dynamic({ loader: () => import(/* webpackChunkName: 'wrappers' */'../dumi/layout')}), dynamic({ loader: () => import(/* webpackChunkName: 'wrappers' */'D:/前端项目学习/react-ui-library-tutorial/dq-ui/node_modules/dumi-theme-default/es/layout.js')})],
     "routes": [
       {
         "path": "/components/alert",
-        "component": dynamic({ loader: () => import(/* webpackChunkName: 'components__Alert__index.md' */'D:/myself/DQ-UI/src/components/Alert/index.md')}),
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'components__Alert__index.md' */'D:/前端项目学习/react-ui-library-tutorial/dq-ui/src/components/Alert/index.md')}),
         "exact": true,
         "meta": {
           "filePath": "src/components/Alert/index.md",
@@ -120,7 +120,7 @@ export function getRoutes() {
       },
       {
         "path": "/components/button",
-        "component": dynamic({ loader: () => import(/* webpackChunkName: 'components__Button__index.md' */'D:/myself/DQ-UI/src/components/Button/index.md')}),
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'components__Button__index.md' */'D:/前端项目学习/react-ui-library-tutorial/dq-ui/src/components/Button/index.md')}),
         "exact": true,
         "meta": {
           "filePath": "src/components/Button/index.md",
@@ -176,11 +176,11 @@ export function getRoutes() {
       },
       {
         "path": "/getting-started",
-        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__getting-started.md' */'D:/myself/DQ-UI/docs/getting-started.md')}),
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__getting-started.md' */'D:/前端项目学习/react-ui-library-tutorial/dq-ui/docs/getting-started.md')}),
         "exact": true,
         "meta": {
           "filePath": "docs/getting-started.md",
-          "updatedTime": 1651227678433,
+          "updatedTime": 1651227747000,
           "title": "快速开始",
           "nav": {
             "title": "快速上手",
@@ -204,7 +204,7 @@ export function getRoutes() {
       },
       {
         "path": "/",
-        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__index.md' */'D:/myself/DQ-UI/docs/index.md')}),
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__index.md' */'D:/前端项目学习/react-ui-library-tutorial/dq-ui/docs/index.md')}),
         "exact": true,
         "meta": {
           "filePath": "docs/index.md",

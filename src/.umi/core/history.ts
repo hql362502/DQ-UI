@@ -1,5 +1,5 @@
 // @ts-nocheck
-import { createBrowserHistory, History } from 'D:/myself/DQ-UI/node_modules/umi/node_modules/@umijs/runtime';
+import { createBrowserHistory, History } from 'D:/前端项目学习/react-ui-library-tutorial/dq-ui/node_modules/umi/node_modules/@umijs/runtime';
 
 let options = {
   "basename": "/DQ-UI"

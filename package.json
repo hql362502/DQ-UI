@@ -4,6 +4,7 @@
   "description": "一个基于React的组件库框架",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
+  "module": "esm/index.js",
   "scripts": {
     "release": "np --no-cleanup --no-tests --any-branch",
     "clean": "rimraf lib esm dist",
@@ -15,7 +16,6 @@
     "commit": "git-cz",
     "dev": "dumi dev",
     "build:site": "rimraf doc-site && dumi build",
-    "module": "esm/index.js",
     "build:types": "tsc -p tsconfig.build.json && cpr lib esm",
     "deploy:site": "npm run build:site && gh-pages -d doc-site",
     "preview:site": "cross-env SITE_BUILD_ENV=PREVIEW npm run build:site && serve doc-site"
@@ -114,7 +114,6 @@
   "dependencies": {
     "@babel/runtime": "^7.17.9",
     "classnames": "^2.3.1",
-    "hql-dq-ui": "^1.0.1",
     "prop-types": "^15.8.1"
   }
 }
